@@ -1,4 +1,4 @@
-import translate from '@vitalets/google-translate-api';
+import fetch from '@vitalets/google-translate-api';
 import fetch from 'node-fetch';
 const handler = async (m, {text, command, args, usedPrefix}) => {
   if (!text) return conn.reply(m.chat, `🍭 Ingresa un texto para empezar a hablar con la Bot.`, m)
